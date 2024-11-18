@@ -1,0 +1,209 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: rgb(52, 206, 142);
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+}
+
+button.vibrating-button {
+    margin: 50px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    animation: vibrate 0.3s infinite;
+    transition: background-color 0.3s ease;
+}
+
+    button.vibrating-button:hover {
+        animation: none;
+        background-color: green;
+    }
+
+@keyframes vibrate {
+    0%, 100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+a.animated-link {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    transition: color 0.3s ease;
+}
+
+    a.animated-link::after {
+        content: '';
+        display: block;
+        height: 2px;
+        background: green;
+        width: 0;
+        position: absolute;
+        bottom: -2px;
+        left: 50%;
+        transition: all 0.3s ease;
+    }
+
+    a.animated-link:hover {
+        color: green;
+    }
+
+        a.animated-link:hover::after {
+            width: 100%;
+            left: 0;
+        }
+
+.ballFall {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0) scaleX(1) scaleY(1);
+    }
+    60% {
+        transform: translateY(300px) scaleX(1) scaleY(1);
+    }
+    65% {
+        transform: translateY(310px) scaleX(1.2) scaleY(0.8);
+    }
+    75% {
+        transform: translateY(200px) scaleX(1) scaleY(1);
+    }
+    90% {
+        transform: translateY(300px) scaleX(1) scaleY(1);
+    }
+    95% {
+        transform: translateY(310px) scaleX(1.2) scaleY(0.8);
+    }
+    100% {
+        transform: translateY(250px) scaleX(1) scaleY(1);
+    }
+}
+
+.ballFall {
+    animation-timing-function: cubic-bezier(1, 0.1, 1, 1);
+}
+
+.newton-cradle {
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.cradle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 200px;
+    position: relative;
+}
+
+.string {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+    .string::before {
+        content: '';
+        width: 2px;
+        height: 100px;
+        background: black;
+        position: absolute;
+        top: 0;
+    }
+
+.cradle .ball {
+    width: 30px;
+    height: 30px;
+    background: blue;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    transform-origin: top center;
+}
+
+    .cradle .ball.left {
+        animation: swing-left 2s ease-in-out infinite;
+    }
+
+    .cradle .ball.right {
+        animation: swing-right 2s ease-in-out infinite;
+    }
+
+@keyframes swing-left {
+    0% {
+        transform: rotate(45deg);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes swing-right {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+    75% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

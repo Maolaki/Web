@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laba1", "Laba1", "{CFE5EE0C-7968-4315-913A-C32E70EDA0C4}"
+	ProjectSection(SolutionItems) = preProject
+		Laba1\john-wick.jpg = Laba1\john-wick.jpg
+		Laba1\Page1.html = Laba1\Page1.html
+		Laba1\styles.css = Laba1\styles.css
+		Laba1\summer-wars.jpg = Laba1\summer-wars.jpg
+		Laba1\your-name.jpg = Laba1\your-name.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laba2", "Laba2", "{97ADBBF8-0548-466E-A95A-A7B74B40EBCB}"
+	ProjectSection(SolutionItems) = preProject
+		Laba2\john-wick.jpg = Laba2\john-wick.jpg
+		Laba2\Page1.html = Laba2\Page1.html
+		Laba2\styles.css = Laba2\styles.css
+		Laba2\summer-wars.jpg = Laba2\summer-wars.jpg
+		Laba2\TestFont.woff2 = Laba2\TestFont.woff2
+		Laba2\your-name.jpg = Laba2\your-name.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7647F491-821C-4215-8ECE-0C6A39CC6DBD}"
+	ProjectSection(SolutionItems) = preProject
+		home.html = home.html
+		home.css = home.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laba3", "Laba3", "{6B548688-0C56-495E-9E76-7B70827C0066}"
+	ProjectSection(SolutionItems) = preProject
+		Laba3\Page1.html = Laba3\Page1.html
+		Laba3\styles.css = Laba3\styles.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laba4", "Laba4", "{81DB90D4-8687-482D-9B24-FCA55794D145}"
+	ProjectSection(SolutionItems) = preProject
+		Laba4\Page1.html = Laba4\Page1.html
+		Laba4\style.css = Laba4\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laba5", "Laba5", "{DEE2F2FB-5776-4575-9F9D-4FA3F7466584}"
+	ProjectSection(SolutionItems) = preProject
+		Laba5\Page1.html = Laba5\Page1.html
+		Laba5\style.css = Laba5\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laba6", "Laba6", "{EFD7607C-4B63-409F-9164-9C3745542057}"
+	ProjectSection(SolutionItems) = preProject
+		Laba6\Page1.html = Laba6\Page1.html
+		Laba6\style.css = Laba6\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Laba7", "Laba7", "{4BC9E5AC-AB99-4BC4-9B8D-EDF8E864FEC0}"
+	ProjectSection(SolutionItems) = preProject
+		Laba7\Page1.html = Laba7\Page1.html
+		Laba7\style.css = Laba7\style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDC431D4-F540-4C04-B19A-3F9C73668489}
+	EndGlobalSection
+EndGlobal

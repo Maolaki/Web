@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета: Любимые фильмы</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Анкета: Любимые фильмы</h1>
+        <form action="/submit-form" method="post">
+            <fieldset>
+                <legend>Общая информация</legend>
+
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Ваш телефон:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+375 99 999 99 99">
+
+                <label for="password">Придумайте пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Ваши предпочтения</legend>
+
+                <label>Ваш любимый жанр:</label>
+                <div>
+                    <input type="radio" id="action" name="genre" value="action">
+                    <label for="action">Боевик</label>
+
+                    <input type="radio" id="comedy" name="genre" value="comedy">
+                    <label for="comedy">Комедия</label>
+
+                    <input type="radio" id="drama" name="genre" value="drama">
+                    <label for="drama">Драма</label>
+                </div>
+
+                <label>Какие типы фильмов вы предпочитаете?</label>
+                <div>
+                    <input type="checkbox" id="hollywood" name="types[]" value="hollywood">
+                    <label for="hollywood">Голливудские</label>
+
+                    <input type="checkbox" id="bollywood" name="types[]" value="bollywood">
+                    <label for="bollywood">Болливудские</label>
+
+                    <input type="checkbox" id="indie" name="types[]" value="indie">
+                    <label for="indie">Независимые</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Дополнительная информация</legend>
+
+                <label for="favorite-movie">Ваш любимый фильм:</label>
+                <input type="text" id="favorite-movie" name="favorite_movie">
+
+                <label for="photo">Загрузите фото любимого актера:</label>
+                <input type="file" id="photo" name="photo">
+            </fieldset>
+
+            <div class="form-actions">
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Сбросить">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
